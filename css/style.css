@@ -46,6 +46,7 @@ body {
     flex-direction: column;
     padding-left: 60px;
     padding-right: 90px;
+    margin-bottom: 32px;
 }
 
 .everydayCategoriesText {
@@ -68,50 +69,39 @@ body {
 .everydayCategoriesImgs {
     display: flex;    
     justify-content: space-between;
+    margin-bottom: 70px;
 }
 
-.breakfastImgContainer {
-    width: 400px;
-    overflow: hidden;
-    text-align: center;
-    font-size: 20px;
-    margin-right: 40px;
-}
-
-.breakfastImg {
-    width: 368px;
-}
-
-.vegetarianImgContainer {
-    width: 400px;
+.everydayCategoriesItemContainer {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
     height: 250px;
-    overflow: hidden;
-    text-align: center;
+}
+
+.imgWrapper {
+    height: 80%;
+}
+
+.everydayCategoriesImg {
+    width: 330px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.everydayCataText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 20px;
-    margin-right: 40px;
-}
-
-.vegetarianImg {
-    width: 350px;
-    height: 208px;
-}
-
-.coldWeatherImgContainer {
-    width: 400px;
-    height: 250px;
-    overflow: hidden;
-    text-align: center;
-    font-size: 20px;
-}
-
-.coldWeatherImg {
-    width: 350px;
-    height: 208px;
+    font-weight: bold;
+    width: 330px;
+    margin-top: 20px;
 }
 
 .healthyRecipes {
     background-color: rgb(213, 218, 230);
-    padding: 20px 45px 50px 60px;
+    padding: 20px 60px 50px 60px;
 }
 
 .healthyRecipesText > h1 {
@@ -136,10 +126,6 @@ body {
     flex-direction: column;
 }
 
-.imgWrapper {
-    height: 80%;
-}
-
 .healthyRecipesImg {
     width: 100%;
     height: 100%;
@@ -158,7 +144,8 @@ body {
 .whereToEat {
     display: flex;
     flex-direction: column;
-    padding-left: 60px;   
+    padding-left: 60px;
+    padding-right: 60px; 
 }
 
 .whereToEatText > p {
@@ -172,23 +159,24 @@ body {
 }
 
 .wteImgContainer {
-    width: 320px;
-    height: 280px;
-    overflow: hidden;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border: 8px solid rgb(213, 218, 230);
+}
+
+.wteText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 20px;
-    margin-right: 40px;
-    object-fit: contain;
-    border: 8px solid rgb(213, 218, 230);
+    font-weight: bold;
+    margin-top: 20px;
 }
 
-.wteSandImg {
+.wteFoodImg {
     width: 100%;
     height: 100%;
-}
-
-.pizzaImg {
-    width: 100%;
-    height: 100%;
-    border: 8px solid rgb(213, 218, 230);
+    object-fit: cover;
 }
