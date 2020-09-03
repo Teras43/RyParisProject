@@ -36,6 +36,11 @@ body {
     padding: 8px 90px 5px 60px;
 }
 
+
+
+
+
+
 /* Index CSS */
 
 .topImgBanner {
@@ -222,6 +227,11 @@ body {
     object-fit: cover;
 }
 
+
+
+
+
+
 /* Recipe Page CSS */
 
 .bengalBanner {
@@ -392,13 +402,30 @@ margin-bottom: 10px;
     padding-left: 22px;
 }
 
-ol > h3 {
+.timingListItem {
+    position: relative;
+    margin-top: 35px;
+}
+
+li > h3 {
+    position: absolute;
+    top: -30px;
     margin: 0;
+}
+
+ol > li {
+    padding-bottom: 30px;
 }
 
 iframe {
     margin-bottom: 3px;
+    height: 800px;
+    width: 100%
 }
+
+
+
+
 
 /* More General CSS for Both */
 
