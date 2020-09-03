@@ -150,20 +150,72 @@ body {
     padding: 7px 7px;
 }
 
-.bengalQuote {
+.quoteContainer {
     display: flex;
     justify-content: center;
-    background-color: rgb(213, 218, 230);
+}
+
+.bengalQuote {
+    background-color: rgb(235, 238, 242);
     font-weight: bold;
     font-size: 23px;
     padding: 35px 110px;
     width: 800px;
     margin-top: 40px;
-    /* margin-left: 80px; */
 }
 
 .bengalText {
     margin: 0;
+}
+
+.ingredientsDirections {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    font-size: 23px;
+}
+
+.leftSideIngredients {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.leftSideIngredients > h2 {
+margin-bottom: 10px;
+}
+
+.leftSideIngredients > ul {
+    margin-top: 0;
+    padding-left: 22px;
+}
+
+.leftSideIngredients > h3 {
+    margin: 0;
+    padding-left: 22px;
+}
+
+.rightSideDirections {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.rightSideDirections > h2 {
+    margin-bottom: 0;
+}
+
+.rightSideDirections > ol {
+    padding-left: 22px;
+}
+
+ol > h3 {
+    margin: 0;
+}
+
+iframe {
+    margin-bottom: 3px;
 }
 
 .topImageText {
